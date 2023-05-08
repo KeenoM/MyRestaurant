@@ -1,0 +1,77 @@
+<!DOCTYPE html> 
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Keeno Maarman">
+    <meta name="discription" content="Contact information for The Branch">
+    <title>Contact US</title>
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1><em>Contact Us</em></h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/#about">About Us</a>
+                    </li>
+                    <li>
+                        <a href="/#hours">Our Hours</a>
+                    </li>
+                    <li>
+                        <a href="menu.html">Menu</a>
+                    </li>
+                </ul>
+                </nav>
+                <figure>
+                    <img scr="./IMG/IMG_2100.JPG" alt=" Leaf Us A Message">
+                    <figcaption>
+                        <h3> Just a message away! </h3>
+                    </figcaption>
+                </figure>
+        </header>
+        <hr>
+        <main>
+            <div class="container">
+                <div style="text-align:center">
+                  <h2>Contact Us</h2>
+                  <p>Leave us a message:</p>
+                </div>
+                <div class="row">
+                  <div class="column">
+                    <img src="./IMG/IMG_2099.JPG" style="width:100%">
+                  </div>
+                  <div class="column">
+                    <form action="/action_page.php">
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      <label for="contact-method">Preferred Contact Method:</label>
+                     <select id="contact-method" name="contact-method">
+                     <option value="email">Email</option>
+                     <option value="phone">Phone</option>
+                     <option value="text">Text Message</option>
+                     <option value="social-media">Social Media</option>
+                    </select>
+
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                      <input type="submit" value="Submit">
+                    </form>
+                  </div>
+                </div>
+              </div>
+        </main>
+        <hr>
+        <footer>
+            <p>Copywrite &copy; The Branch</p>
+        </footer>
+
+    </body>
+
+</html>
